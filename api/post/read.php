@@ -32,7 +32,9 @@ if($num > 0){
 
             $post_item = array(
                 'id' => $id,
-                'productName' => $productName
+                'product_name' => $product_name,
+                'description' => $description,
+                'image_url' => $url
             );
 
             // push to "data"
