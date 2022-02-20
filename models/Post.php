@@ -74,6 +74,7 @@
             $this->product_name = $row['product_name'];
             $this->description = $row['description'];
             $this->url = $row['image_url'];
+            $this->cost = $row['cost'];
 
             
         }
